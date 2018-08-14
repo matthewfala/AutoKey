@@ -16,6 +16,7 @@ specialChar[] charReplacements = new specialChar[] {
   new specialChar("~#", "*"),
   new specialChar("~B", "/"),
   new specialChar("\"", "\\\""),
+  new specialChar(" ", ""),  // LSep Character removal, visible in notepad
 
 };
 
